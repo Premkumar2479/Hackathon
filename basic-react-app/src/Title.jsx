@@ -1,11 +1,10 @@
-function Title(){
-
-    let name = "Nick";
+function Title() {
+  let name = "Nick";
   return (
-     <div>
-        <p>2*2 = {2*2}</p>
-        <p>hi, {name.toUpperCase()}</p>
-  </div> 
+    <div>
+      <p>2*2 = {2*2}</p>   {/* ✅ fixed */}
+      <p>hi, {name.toUpperCase()}</p>
+    </div>
   );
 }
 
